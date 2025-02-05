@@ -1,0 +1,106 @@
+/* the styles for the elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: white;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 850px;
+    margin: 0 auto;
+    border: 3px solid #800000;
+    background-color: #fffded;
+}
+
+/* the styles for the header */
+header {
+    background: linear-gradient(30deg, #F1C993, #F9FFF2, #FFFFFD, #F9FFF2, #F1C993);
+    padding: 15px 20px;
+    border-bottom: 2px solid #800000;
+    overflow: hidden;
+}
+header img {
+    float: left;
+    margin-right: 15px;
+    height: 80px;
+}
+header h2 {
+    color: #800000;
+    padding-bottom: .25em;
+}
+header h3 {
+    font-style: italic;
+    color: #800000;
+}
+header .shadow {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* the styles for the main element */
+main {
+    overflow: hidden;
+}
+section {
+    float: right;
+    width: 575px;
+    padding: 15px;
+}
+section h1 {
+    color: #800000;
+}
+section h2 {
+    grid-column: span all;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+article {
+    column-count: 2;
+    column-gap: 20px;
+}
+article p {
+    padding-bottom: .5em;
+}
+article img {
+    float: left;
+    margin: 0 15px 15px 0;
+    width: 275px;
+    border: 1px solid black;
+}
+aside {
+    float: left;
+    width: 215px;
+    padding: 15px;
+}
+aside h2 {
+    color: #800000;
+    font-size: 150%;
+    padding-bottom: 10px;
+}
+aside h3 {
+    padding: 10px 0;
+}
+aside img {
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+}
+
+/* the styles for the footer */
+footer {
+    background-color: #931420;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    clear: both;
+}
+footer p {
+    padding: 1em 0;
+}
+
+/* Link hover effect */
+a:hover {
+    font-style: italic;
+}
